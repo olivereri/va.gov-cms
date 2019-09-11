@@ -1,0 +1,23 @@
+uuid: b88ea6cf-6179-42e4-888c-42a3d5b2660f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_govdelivery_enabled
+    - node.type.visn_alert
+id: node.visn_alert.field_govdelivery_enabled
+field_name: field_govdelivery_enabled
+entity_type: node
+bundle: visn_alert
+label: 'Send email to subscribers via GovDelivery'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Send email to subscribers via GovDelivery'
+  off_label: 'Off'
+field_type: boolean

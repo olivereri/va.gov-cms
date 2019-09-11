@@ -1,0 +1,21 @@
+uuid: 40249f6d-c728-488c-84cf-9766a38b64c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.visn_alert
+  module:
+    - metatag
+id: node.visn_alert.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: visn_alert
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

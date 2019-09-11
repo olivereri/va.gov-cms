@@ -1,0 +1,20 @@
+uuid: 3f098ba9-20a6-4887-98a8-5b4d56051733
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - node_title_help_text
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  node_title_help_text:
+    title_help: ''
+name: 'Health system alert'
+type: visn_alert
+description: 'Place a banner at the top of pages within a VISN, and manage related operating statuses.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

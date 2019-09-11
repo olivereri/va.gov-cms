@@ -1,0 +1,29 @@
+uuid: eabeade4-3d9a-49c4-84eb-dd1d125c2635
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_visn_alert_cer
+    - node.type.facility_alert
+    - node.type.visn_alert
+id: node.facility_alert.field_visn_alert_cer
+field_name: field_visn_alert_cer
+entity_type: node
+bundle: facility_alert
+label: 'VISN alert corresponding entity reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      visn_alert: visn_alert
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

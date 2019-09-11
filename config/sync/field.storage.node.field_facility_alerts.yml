@@ -1,11 +1,11 @@
-uuid: 192d2b69-6cc3-4948-8f8e-e469f598cda7
+uuid: 301a851c-5eab-4cdf-a747-819652f11a65
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_facility_location
-field_name: field_facility_location
+id: node.field_facility_alerts
+field_name: field_facility_alerts
 entity_type: node
 type: entity_reference
 settings:

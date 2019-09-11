@@ -1,0 +1,21 @@
+uuid: b5711199-3c74-436c-a09d-84ae5631ccd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_of_alert
+    - node.type.visn_alert
+  module:
+    - options
+id: node.visn_alert.field_type_of_alert
+field_name: field_type_of_alert
+entity_type: node
+bundle: visn_alert
+label: 'Type of alert'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

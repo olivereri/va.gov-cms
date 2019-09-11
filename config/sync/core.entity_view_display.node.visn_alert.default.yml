@@ -1,0 +1,78 @@
+uuid: fead8940-79a2-47ff-931d-8ebababf59a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.visn_alert.field_administration
+    - field.field.node.visn_alert.field_body
+    - field.field.node.visn_alert.field_facility_alerts
+    - field.field.node.visn_alert.field_govdelivery_enabled
+    - field.field.node.visn_alert.field_meta_tags
+    - field.field.node.visn_alert.field_type_of_alert
+    - field.field.node.visn_alert.field_visns_affected
+    - node.type.visn_alert
+  module:
+    - options
+    - text
+    - user
+id: node.visn_alert.default
+targetEntityType: node
+bundle: visn_alert
+mode: default
+content:
+  content_moderation_control:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_administration:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_body:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_facility_alerts:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_govdelivery_enabled:
+    weight: 5
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_type_of_alert:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_visns_affected:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  field_meta_tags: true
+  links: true

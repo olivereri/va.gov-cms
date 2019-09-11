@@ -1,0 +1,18 @@
+uuid: 8953981c-b368-4b4e-bf43-73612b7b4398
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.visn_alert
+id: node.visn_alert.title
+field_name: title
+entity_type: node
+bundle: visn_alert
+label: 'Banner alert title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

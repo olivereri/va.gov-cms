@@ -41,6 +41,7 @@ field_settings:
           documentation_page: default
           event: default
           event_listing: default
+          facility_alert: default
           health_care_local_facility: default
           health_care_local_health_service: default
           health_care_region_detail_page: default
@@ -53,6 +54,7 @@ field_settings:
           press_release: default
           publication_listing: default
           regional_health_care_service_des: default
+          visn_alert: default
   status:
     label: null
     datasource_id: 'entity:node'

@@ -1,0 +1,18 @@
+uuid: 714f1b4f-fa32-461b-9d8a-6cfe990b3292
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.facility_alert
+id: node.facility_alert.title
+field_name: title
+entity_type: node
+bundle: facility_alert
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

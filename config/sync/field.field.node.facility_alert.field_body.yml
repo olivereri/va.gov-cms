@@ -1,0 +1,21 @@
+uuid: 8cb48b83-4124-4eb2-ae57-9059451e0c1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.facility_alert
+  module:
+    - text
+id: node.facility_alert.field_body
+field_name: field_body
+entity_type: node
+bundle: facility_alert
+label: 'Alert body'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

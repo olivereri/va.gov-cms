@@ -1,0 +1,42 @@
+uuid: 6f277af4-ac7c-41d1-85f7-3a335560305a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.facility_alerts
+  module:
+    - entity_browser_entity_form
+    - views
+name: facility_alerts
+label: 'Facility alerts'
+display: modal
+display_configuration:
+  width: ''
+  height: ''
+  link_text: 'Add an alert'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: drop_down
+widget_selector_configuration: {  }
+widgets:
+  30fe9c94-2826-4683-bc37-931dd043f468:
+    settings:
+      view: facility_alerts
+      view_display: entity_browser_1
+      submit_text: 'Select alerts'
+      auto_select: false
+    uuid: 30fe9c94-2826-4683-bc37-931dd043f468
+    weight: -9
+    label: 'Add existing facility alert'
+    id: view
+  cc1b39ca-4709-4c99-b38e-28e182fca45f:
+    settings:
+      entity_type: node
+      bundle: facility_alert
+      form_mode: default
+      submit_text: 'Save alert'
+    uuid: cc1b39ca-4709-4c99-b38e-28e182fca45f
+    weight: -10
+    label: 'Add new facility alert'
+    id: entity_form

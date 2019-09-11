@@ -1,0 +1,23 @@
+uuid: a80c2597-934a-4109-a923-84384e0e8435
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_of_alert
+    - node.type.facility_alert
+  module:
+    - options
+id: node.facility_alert.field_type_of_alert
+field_name: field_type_of_alert
+entity_type: node
+bundle: facility_alert
+label: 'Type of alert'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: information
+default_value_callback: ''
+settings: {  }
+field_type: list_string

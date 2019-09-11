@@ -1,0 +1,33 @@
+uuid: 8a8f38f4-86df-420c-a788-ae783c2d2927
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.visn_alert.field_administration
+    - field.field.node.visn_alert.field_body
+    - field.field.node.visn_alert.field_facility_alerts
+    - field.field.node.visn_alert.field_govdelivery_enabled
+    - field.field.node.visn_alert.field_meta_tags
+    - field.field.node.visn_alert.field_visns_affected
+    - node.type.visn_alert
+  module:
+    - user
+id: node.visn_alert.teaser
+targetEntityType: node
+bundle: visn_alert
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  content_moderation_control: true
+  field_administration: true
+  field_body: true
+  field_facility_alerts: true
+  field_govdelivery_enabled: true
+  field_meta_tags: true
+  field_visns_affected: true

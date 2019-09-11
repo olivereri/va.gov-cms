@@ -1,0 +1,17 @@
+uuid: cd1be45a-fc47-415d-8792-e9871c82f045
+langcode: en
+status: true
+dependencies: {  }
+name: facility_browser_for_facility_alerts
+label: 'Facility browser for Facility alerts'
+display: modal
+display_configuration:
+  width: ''
+  height: ''
+  link_text: 'Select facilities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: drop_down
+widget_selector_configuration: {  }
+widgets: {  }

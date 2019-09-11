@@ -1,0 +1,21 @@
+uuid: 7d28ac02-8ec1-45e1-96e3-5003032a5bd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.facility_alert
+  module:
+    - metatag
+id: node.facility_alert.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: facility_alert
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

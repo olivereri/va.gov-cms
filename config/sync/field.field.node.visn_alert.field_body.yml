@@ -1,0 +1,21 @@
+uuid: bdd5684c-60a3-47f5-984b-e71d0ebe35f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.visn_alert
+  module:
+    - text
+id: node.visn_alert.field_body
+field_name: field_body
+entity_type: node
+bundle: visn_alert
+label: 'Alert body'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

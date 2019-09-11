@@ -1,15 +1,16 @@
-uuid: 192d2b69-6cc3-4948-8f8e-e469f598cda7
+uuid: 9cfa0618-a292-4304-a701-e04455d28322
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_facility_location
-field_name: field_facility_location
+    - taxonomy
+id: node.field_visns_affected
+field_name: field_visns_affected
 entity_type: node
 type: entity_reference
 settings:
-  target_type: node
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: -1

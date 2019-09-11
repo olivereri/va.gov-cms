@@ -1,0 +1,21 @@
+uuid: 28072d19-9404-4cbe-984a-68fdbaba6391
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_expiration_date
+    - node.type.facility_alert
+  module:
+    - datetime
+id: node.facility_alert.field_expiration_date
+field_name: field_expiration_date
+entity_type: node
+bundle: facility_alert
+label: 'Expiration date (optional)'
+description: 'Set a time at which this alert will automatically become archived. (not functioning yet)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

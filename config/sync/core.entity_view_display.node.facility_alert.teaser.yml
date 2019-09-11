@@ -1,0 +1,54 @@
+uuid: b8478740-013a-4803-b554-a2da0c88f405
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.facility_alert.field_administration
+    - field.field.node.facility_alert.field_body
+    - field.field.node.facility_alert.field_expiration_date
+    - field.field.node.facility_alert.field_facility_location
+    - field.field.node.facility_alert.field_govdelivery_enabled
+    - field.field.node.facility_alert.field_meta_tags
+    - field.field.node.facility_alert.field_type_of_alert
+    - field.field.node.facility_alert.field_visn_alert_cer
+    - node.type.facility_alert
+  module:
+    - options
+    - text
+    - user
+id: node.facility_alert.teaser
+targetEntityType: node
+bundle: facility_alert
+mode: teaser
+content:
+  field_body:
+    type: text_default
+    weight: 0
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_facility_location:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_type_of_alert:
+    type: list_default
+    weight: 1
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  content_moderation_control: true
+  field_administration: true
+  field_expiration_date: true
+  field_govdelivery_enabled: true
+  field_meta_tags: true
+  field_visn_alert_cer: true
+  links: true

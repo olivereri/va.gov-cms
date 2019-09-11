@@ -1,18 +1,17 @@
-uuid: 192d2b69-6cc3-4948-8f8e-e469f598cda7
+uuid: da38564b-a5b7-4d46-b48e-55f2fb4d14ff
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_facility_location
-field_name: field_facility_location
+id: node.field_govdelivery_enabled
+field_name: field_govdelivery_enabled
 entity_type: node
-type: entity_reference
-settings:
-  target_type: node
+type: boolean
+settings: {  }
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

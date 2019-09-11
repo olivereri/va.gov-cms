@@ -1,0 +1,13 @@
+uuid: e1d86ad6-ab40-444f-9522-bdb81231fa13
+langcode: en
+status: true
+dependencies: {  }
+id: visn_banner_alert_and_facility_alert
+label: 'VISN banner alert and facility alert'
+enabled: true
+first_field: field_facility_alerts
+second_field: field_visn_alert_cer
+bundles:
+  node:
+    - facility_alert
+    - visn_alert

@@ -1,0 +1,25 @@
+uuid: 069090ab-7902-4f5b-946d-e11de5d4e655
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_visns_affected
+    - node.type.visn_alert
+id: node.visn_alert.field_visns_affected
+field_name: field_visns_affected
+entity_type: node
+bundle: visn_alert
+label: 'VISNs affected'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: list_of_visns
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference
